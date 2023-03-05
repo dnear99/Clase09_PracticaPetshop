@@ -43,6 +43,39 @@
 
 .bienvenida{
   margin-top: 50px;
-  padding: 22px;
   text-align: center;
+  font-size: 30px;
+  color:#3C2313;
+  background-color: #FFFFFF;
+}
+
+.comederos_en_descuento{
+  color: #3C2313;
+  font-size: 16px;
+  text-align: center;
+}
+
+.boton_comederos{
+  background-color: #F0A83E;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 141px;
+  height: 49px;
+  border-style: none;
+}
+
+.imagenes-productos-destacados{
+  background-color: #FBFAF6;
+
+}
+
+.h2-productos-destacados{
+  color: #3C2313;
+  font-size: 40px;
+}
+
+.nav-destacados{
+  font-size: 15px;
+  color: #666666;
 }
