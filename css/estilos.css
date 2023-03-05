@@ -1,47 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /*margin: 0;*/ /*para sacar margenes y padding que pone solo el navegador, sirve para ponerlo todo como uno quiere*/
+  /*padding: 0;*/ /*para sacar margenes y padding que pone solo el navegador, sirve para ponerlo todo como uno quiere*/
 }
-
 /* header */
 
-.header-container-top {
+.header-container-top{
   background-color: #222222;
-  color: #f3f3f3;
+  color: #F3F3F3;
+  font-family: 'Roboto', sans-serif; /* si no llega a cargar, utiliza esta*/
   font-size: 10px;
 }
 
-.header-lista {
+.header-lista{
   list-style: none;
 }
 
-.header-container-bottom {
-  background-color: #f0a83e;
+.header-container-bottom{
+  background-color: #F0A83E;
 }
-
-.logo {
+.logo{
   font-weight: bold;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 20px;
 }
 
-.texto-logo-top {
-  color: #3c2313;
+.texto-logo-top{
+  color: #3C2313;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.nav-lista {
+.nav-lista{
   list-style: none;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 13px;
 }
 
 /* main */
 
-.bienvenida {
+.bienvenida{
   margin-top: 50px;
-  padding: 20px;
+  padding: 22px;
   text-align: center;
 }
