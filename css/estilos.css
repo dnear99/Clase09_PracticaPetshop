@@ -128,7 +128,6 @@
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 5px;
-  display: inline-block;
 }
 
 .boton_comederos{
@@ -141,17 +140,43 @@
   border-style: none;
 }
 
-.imagenes-productos-destacados{
-  background-color: #FBFAF6;
+/* Aca empiezan los productos destacados*/
 
+.section-destacados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.h2-productos-destacados{
+.titulo{
   color: #3C2313;
-  font-size: 40px;
+  font-size: 54px;
 }
 
-.nav-destacados{
-  font-size: 15px;
-  color: #666666;
+.huella-destacados{
+  display: flex;
+  height: 5%;
+  width: 5%;
 }
+
+.subtitulo{
+  display: flex;
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 70px;
+}
+
+/*Aca empiezan las imagenes de productos destacados de la parte inferior*/
+
+.section-imagenes-destacados{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 100px;
+}
+
+.div-productos-destacados{
+  margin: 0 auto;
+  
+}
+
