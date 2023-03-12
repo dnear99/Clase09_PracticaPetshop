@@ -1,58 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
+*{
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   /*margin: 0;*/ /*para sacar margenes y padding que pone solo el navegador, sirve para ponerlo todo como uno quiere*/
   /*padding: 0;*/ /*para sacar margenes y padding que pone solo el navegador, sirve para ponerlo todo como uno quiere*/
 }
 /* header */
 
-.header-container-top{
+.header-container-top{ /* Barra negra superior */
+  display: flex;
+  gap: 20px;
   background-color: #222222;
   color: #F3F3F3;
   font-family: 'Roboto', sans-serif; /* si no llega a cargar, utiliza esta*/
-  font-size: 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  padding-left: 90px;
+  padding-right: 60px;
 }
 
-.header-lista{
+.logo{ /* Logos perro y gato en texto arriba */
+  display: flex;
+  align-items: center;
+}
+
+.header-container-bottom{ /* Section donde está el logo y las categorías de arriba */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.lista-categorias{
+  display: flex;
+  font-size: 15px;
+  list-style: none;
+  gap: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 250px;
+  padding-right: 20px;
+}
+
+.ul-idioma{
+  display: flex;
+  gap: 10px;
   list-style: none;
 }
 
 .header-container-bottom{
   background-color: #F0A83E;
 }
+
 .logo{
+  display: flex;
   font-weight: bold;
   color: #FFFFFF;
   font-size: 20px;
 }
 
-.texto-logo-top{
-  color: #3C2313;
-  font-weight: bold;
-  font-size: 20px;
-}
-
+/*Nav lista superior (botones de navegacion con logo)*/
 .nav-lista{
   list-style: none;
   color: #FFFFFF;
   font-size: 13px;
+  display: flex;
 }
 
-/* main */
+/* main */ /* aca es donde está el "Es un placer tenerte aqui*/
 
-.bienvenida{
-  margin-top: 50px;
-  text-align: center;
+
+.main-background{
+  height: 580px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.main-background-img{
+  width: 100%;
+}
+
+.main-background-texto{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 216px;
+  right: 79px;
+}
+
+.bienvenida{ /*Es un placer tenerte aqui*/
+  display: flex;
   font-size: 30px;
   color:#3C2313;
   background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 365px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .comederos_en_descuento{
+  display: flex;
   color: #3C2313;
   font-size: 16px;
-  text-align: center;
+}
+
+.boton-comederos{
+  gap: 500px;
+  display: flex;
+  background-color: #F0A83E;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .boton_comederos{
