@@ -171,12 +171,26 @@
 
 .section-imagenes-destacados{
   display: flex;
-  flex-direction: row-reverse;
-  gap: 100px;
 }
 
 .div-productos-destacados{
+  display: flex;
   margin: 0 auto;
-  
+  gap: 50px;
 }
 
+.articulo1,.articulo2,.articulo3{
+  background-color: #FBFAF6;
+  text-align: center;
+  padding: 10px;
+}
+
+.nombre_producto1,.nombre_producto2,.nombre_producto3{
+  color: #3C2313;
+  font-weight: bold;
+}
+
+.precio_producto1,.precio_producto2,.precio_producto3{
+  color: #F0A83E;
+  font-weight: bold;
+}
